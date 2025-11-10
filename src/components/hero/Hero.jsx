@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 cursor-pointer">
+    <section className="w-screen min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 cursor-pointer">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center gap-12 px-6 md:px-12">
         <div className="flex-1 text-center md:text-left space-y-6">
           <p className="text-lg text-blue-800 dark:text-blue-300">Hello, I'm</p>
