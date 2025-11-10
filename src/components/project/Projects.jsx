@@ -99,7 +99,7 @@ export default function Projects() {
     
     <section
       id="projects"
-      className="w-screen bg-gray-50 dark:bg-gray-900 flex justify-center mt-15 md:mt-0"
+      className="w-screen bg-gray-50 dark:bg-gray-900 flex justify-center mt-35 md:mt-0"
     >
       
       <div className="container mx-auto  md:px-12 max-w-7xl">
