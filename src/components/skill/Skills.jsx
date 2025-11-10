@@ -48,7 +48,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="py-20 bg-gray-50 dark:bg-gray-900 flex justify-center"
+      className="w-screen py-20 bg-gray-50 dark:bg-gray-900 flex justify-center"
     >
       <div className="container mx-auto px-6 md:px-12 max-w-7xl">
         <div className="w-full h-1 bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 "></div>
