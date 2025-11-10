@@ -116,11 +116,7 @@ export default function Projects() {
             <ProjectCard key={idx} project={project} />
           ))}
 
-          <div className="bg-gray-100 dark:bg-gray-700 rounded-2xl shadow-lg flex items-center justify-center hover:shadow-2xl transition-shadow duration-300 cursor-pointer">
-            <span className="text-gray-500 dark:text-gray-200 font-semibold text-xl">
-              + Add New Project
-            </span>
-          </div>
+
         </div>
       </div>
     </section>
