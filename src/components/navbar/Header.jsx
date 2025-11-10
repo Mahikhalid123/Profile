@@ -21,7 +21,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 text-white backdrop-blur-md border-b border-gray-200 bg-linear-to-r from-gray-500 via-gray-500 to-gray-500">
+    <header className="w-screen sticky top-0 z-50 text-white backdrop-blur-md border-b border-gray-200 bg-linear-to-r from-gray-500 via-gray-500 to-gray-500">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
        
           <span className="text-xl font-semibold italic flex items-center gap-1 cursor-pointer">
