@@ -49,7 +49,7 @@ export default function Hero() {
 
         <div className="flex-1 flex justify-center md:justify-end cursor-pointer">
           <img
-            src="src/assets/Logo.jpg"
+            src="/images/Logo.jpg"
             alt="Khalid Mehmood"
             className="w-94 h-94 rounded-full shadow-xl border-8 border-gray-500 object-cover"
           />

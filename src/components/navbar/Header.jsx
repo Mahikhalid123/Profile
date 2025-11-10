@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 
@@ -14,6 +14,11 @@ const navLinks = [
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+   useEffect(() => {
+    const projectTitle = "Khalid Portfolio"; 
+    document.title = projectTitle;
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 text-white backdrop-blur-md border-b border-gray-200 bg-linear-to-r from-gray-500 via-gray-500 to-gray-500">
