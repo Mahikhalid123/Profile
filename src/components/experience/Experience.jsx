@@ -34,7 +34,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="relative bg-gray-50 dark:bg-gray-900 py-20"
+      className="w-screen relative bg-gray-50 dark:bg-gray-900 py-20"
     >
        <div className="w-full h-1 bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 "></div>
       <h2 className="text-4xl font-extrabold text-center text-gray-900 dark:text-white mb-12 mt-6">
