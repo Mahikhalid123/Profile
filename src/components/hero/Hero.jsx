@@ -47,7 +47,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="flex-1 flex justify-center md:justify-end cursor-pointer">
+        <div className="flex-1 flex justify-center md:justify-end cursor-pointer mt-5 md:nt-0">
           <img
             src="/images/Logo.jpg"
             alt="Khalid Mehmood"
