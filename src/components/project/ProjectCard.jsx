@@ -2,7 +2,7 @@ import TechBadge from "./TechBadge";
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden flex flex-col">
+    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden flex flex-col w-[300px] md:w-full">
       <img
         src={project.image}
         alt={project.title}
