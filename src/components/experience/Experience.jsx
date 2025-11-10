@@ -67,7 +67,7 @@ export default function Experience() {
                   </p>
                 </div>
 
-                <div className="absolute left-1/2 md:static transform -translate-x-1/2 w-6 h-6 bg-indigo-600 rounded-full border-4 border-white dark:border-gray-900 mt-6 md:mt-0"></div>
+                <div className="hidden md:block absolute left-1/2 md:static transform -translate-x-1/2 w-6 h-6 bg-indigo-600 rounded-full border-4 border-white dark:border-gray-900 mt-6 md:mt-0"></div>
               </div>
             );
           })}
