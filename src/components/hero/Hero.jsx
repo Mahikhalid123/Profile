@@ -34,7 +34,7 @@ export default function Hero() {
           </div>
 
           <div className="relative inline-block mt-4 group">
-            <span className="inline-block px-3 py-1 text-sm font-medium bg-indigo-100 text-indigo-800 rounded-full dark:bg-indigo-900 dark:text-indigo-200 cursor-pointer">
+            <span className="inline-block px-3 py-1 text-sm font-medium bg-indigo-100 text-indigo-800 rounded-full dark:bg-indigo-900 dark:text-indigo-200 cursor-pointer mb-10 md:mb-0">
               | Bs Software Engineering @ IUB
             </span>
 
